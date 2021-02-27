@@ -11,12 +11,12 @@
 /* home section */
 
 #home {
-    height:821px;
+    height:924px;
     padding: 4px 0px;
 }
 #home::before{
     content: "";
-    height: 812px;
+    height: 913px;
     
 }
 #home p{
