@@ -210,7 +210,7 @@ html {
     content: "";
     background: url(../img/contact.png) no-repeat center center/cover;
     position: absolute;
-    height: 827px;
+    height: 881px;
     top: -100px;
     z-index: -2;
     width: 100%;
@@ -246,6 +246,15 @@ html {
     font-size: 30px;
     font-family: "Bree Serif", serif;
 }
+#but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #but button{
+    position: relative;
+    left: 308px;
+} */
 
 /* utility class */
 

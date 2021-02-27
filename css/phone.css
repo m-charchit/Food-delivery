@@ -1,0 +1,43 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+    color: chartreuse;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 0px 5px 0px;
+}
+
+/* home section */
+
+#home {
+    height:817px;
+    padding: 4px 0px;
+}
+#home::before{
+    content: "";
+    height: 707px;
+    
+}
+#home p{
+    font-size: 1.3rem;
+}
+
+/* service section */
+
+#service {
+    flex-direction: column;
+}
+#service .box{
+
+}
+
+/* contact section*/
+
+/* footer */
+ 
+/* utility classes */
+.h-primary{
+    font-size: 1.3rem;
+    padding: inherit;
+}
