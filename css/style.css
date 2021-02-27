@@ -286,3 +286,7 @@ html {
 .center {
     text-align: center;
 }
+/* something useful */
+textarea {
+    resize: none;
+}
