@@ -31,8 +31,13 @@
 #service .box{
 
 }
+#service .box img{
+    width: 141px;
+    height: 100px;
+}
 #service-container{
     top : -43px;
+    width: 100%;
 }
 /* contact section*/
 
