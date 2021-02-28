@@ -45,14 +45,16 @@
     top : -43px;
     width: 100%;
 }
-/* contact section*/
 
 /* footer */
- 
+  
 /* utility classes */
 .h-primary{
     font-size: 1.3rem;
     padding: 11px 0px 0px 0px;
 }
-
+.f{
+    margin:0px;
+    padding: 0px;
+}
 

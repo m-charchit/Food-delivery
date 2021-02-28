@@ -79,6 +79,7 @@ html {
 #navbar ul {
     font-family: "Baloo Bhaina 2", cursive;
     display: flex;
+    padding-inline-start: 0px;
 }
 
 #navbar::before {
@@ -256,6 +257,24 @@ html {
     left: 308px;
 } */
 
+/* big footer */
+#big_footer{
+    color: white ;
+    background-color: black;
+    position: relative;
+    top: 35px;
+}
+/* #big_footer::before{
+    content: "";
+    background-color: black;
+
+} */
+.footer{
+    display: flex;
+    /* margin: 50px; */
+    justify-content: space-evenly;
+}
+
 /* utility class */
 
 .h-primary {
@@ -289,4 +308,25 @@ html {
 /* something useful */
 textarea {
     resize: none;
+}
+.f{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.footer p{
+    margin: 0cm;
+}
+.footer h1{
+    margin: 0cm;
+}
+.footer a{
+    margin-top: 10px;
+    margin-bottom : 10px;
+    color: white;
+    text-decoration: none;
+    
 }
