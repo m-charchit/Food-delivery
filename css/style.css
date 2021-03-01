@@ -272,7 +272,8 @@ html {
 .footer{
     display: flex;
     /* margin: 50px; */
-    justify-content: space-evenly;
+    justify-content: space-evenly   ;
+    flex-wrap: wrap;
 }
 
 /* utility class */
@@ -330,3 +331,4 @@ textarea {
     text-decoration: none;
     
 }
+
